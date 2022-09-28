@@ -100,7 +100,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "EfsaneMusicVaves"
+        user.first_name = "BallasMusicVaves"
     usar = user
     wew = usar.id
     try:
@@ -153,7 +153,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Kanal 🔊",
-                        url="https://t.me/Sohbetdestek")
+                        url="https://t.me/Ballasresmi")
                    
                 ]
             ]
@@ -201,7 +201,7 @@ async def play(_, message: Message):
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
+            thumb_name = "https://ibb.co/Vp8TtX1/images-1.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
